@@ -3,8 +3,21 @@
   height: 100vh;
   margin: 0;
   padding: 0;
+  text-align: center;
   display: flex;
-  align-items: center;
   justify-content: center;
   font-family: "Open Sans";
+  background: url(/src/fxt5.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+
+/* 
+.background-img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+} */

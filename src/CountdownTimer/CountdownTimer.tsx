@@ -23,8 +23,12 @@ const CountdownTimer = ({countdownTimestampMs}: any) => {
         setRemainingTime(getRemainingTimeUntilMsTimestamp(countdown));
     }
 
-    return(
+    return(<div>
+        <div>
+            <p className="text">Time left until Max party!</p>
+        </div>
         <div className="countdown-timer">
+            
             <span>{remainingTime.days}</span>
             <span>days</span>
             <span className="two-numbers">{remainingTime.hours}</span>
@@ -33,7 +37,7 @@ const CountdownTimer = ({countdownTimestampMs}: any) => {
             <span>minutes</span>
             <span className="two-numbers">{remainingTime.seconds}</span>
             <span>seconds</span>
-        </div>
+        </div></div>
     );
 }
 
